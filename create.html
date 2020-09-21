@@ -1,8 +1,9 @@
-<!-- this is my text input html file -->
+<!-- I am on the create.html file -->
 <!DOCTYPE html>
 <html>
 <head>
-<body>
+    <title>Sign Up a New User Page</title>
+
    
        
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -12,19 +13,6 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
 
-<div id="container">
-    <div id="heading"><h1>Home Page</h1></div>  
-<div id="login">
-    <input type="text" id="login-email" placeholder="Email">
-    <input type="password" id="login-password" placeholder="Password">
-    <button id="login-button">Login</button>
-    <p><a href="create.html">Create a new account</a>.</p>
-    
-    </div>
-    </div>    
-    <!-- Let's add the auth.js file-->
-    <scrip src="js/auth.js"></scrip>
-    
 <script>
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -42,10 +30,21 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-    
-   
-    
+    <body>
+        <div id="container">
+            <div id="heading"><h1>Sign Up a New User Page</h1></div>
+            <div id="sign-up">
+                <input type="text" id="sign-up-username" placeholder="Username">
+                <input type="text" id="sign-up-email" placeholder="Email">
+                <input type="password" id="sign-up-password" placeholder="Password">
+                <button id="submit-sign-up">Sign Up</button>
+            
+            </div>
+        </div>
+        <!-- Let's add the create.js file-->
+        <script src="js/create.js"></script>
     </body>
+    
+    
     </head>
 </html>
-   
