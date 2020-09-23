@@ -1,0 +1,31 @@
+/*
+   font pairing 1
+   font-family:'Raleway', Montserrat;
+   font-family:'Open Sans', Montserrat;
+*/
+
+.post{
+       font-family: 'Raleway', Montserrat;
+       line-height: 4em;
+}
+
+.post-text{
+        color:black;
+        font-size: 200%;
+        font-family:'Open Sans', Montserrat;
+        word-spacing: 0.2em;
+        line-height: 1.4em;
+        background: white;
+        border-radius: 8px;        
+        
+
+}
+
+.post-info{
+         font-size: 2em;
+         color: white;
+}
+
+.post-author{
+         color: yellow;
+}

@@ -1,0 +1,38 @@
+/*
+    type pairing 2
+    font-family: 'Extra-bold italic', regular;
+    font-family: 'Lato', Montserrat;
+*/
+
+.post,
+a{
+       font-family: 'Lato', Montserrat;
+}
+
+.post-text{
+       font-size: 240%;
+       color: white;
+       font-family: 'Extra-bold italic', regular;
+       line-height: 85%;
+    
+}
+
+.post-info{
+         font-size: 120%;
+         padding-top:30px;
+    
+    
+}
+
+.post-author{
+        font-family: 'Lato', Montserrat;
+        color:yellow;
+        font-size:110%;
+        padding-left: 160px;
+    
+}
+.post-date{
+color: white;
+font-family: 'Extra-bold italic', regular;
+
+}

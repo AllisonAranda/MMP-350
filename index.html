@@ -1,51 +1,33 @@
-<!-- this is my text input html file -->
 <!DOCTYPE html>
 <html>
 <head>
+    
+    <title>Hazel</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+</head>
 <body>
    
-       
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <div id="container">
+         <h1>Hazel</h1>
+        <div id="posts">
+            <div class="post">
+                <div class="post-text">Agencia digital.
+                    Gestionamos y asesoramos el desarrollo de tu marca, potenciando tu negocio.</div>
+                <div class="post-info">
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
-
-<div id="container">
-    <div id="heading"><h1>Home Page</h1></div>  
-<div id="login">
-    <input type="text" id="login-email" placeholder="Email">
-    <input type="password" id="login-password" placeholder="Password">
-    <button id="login-button">Login</button>
-    <p><a href="create.html">Create a new account</a>.</p>
+                 <span class="post-author"> by Diana Guerra &  Eliana Gonzales</span>
+                    <p></p>
+                <span class="post-date">22 de Mayo del 2020</span>
+                </div>
+            
+            
+            </div>
+        
+        
+        </div>
     
     </div>
-    </div>    
-    <!-- Let's add the auth.js file-->
-    <scrip src="js/auth.js"></scrip>
-    
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyCJwwulsziEoUveThsobxkvDBsYBVhOT4k",
-    authDomain: "authentication-bc767.firebaseapp.com",
-    databaseURL: "https://authentication-bc767.firebaseio.com",
-    projectId: "authentication-bc767",
-    storageBucket: "authentication-bc767.appspot.com",
-    messagingSenderId: "103198057034",
-    appId: "1:103198057034:web:d5e1b99b0c9220e99afcb3",
-    measurementId: "G-590WWF3XYY"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-    
-   
-    
-    </body>
-    </head>
+          
+</body>
 </html>
-   

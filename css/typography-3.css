@@ -1,0 +1,25 @@
+/*
+font-family: 'Roboto', Montserrat;
+font-family: 'Black italic',regular;
+*/
+
+.post-text{
+   
+       font-family: 'Roboto', Montserrat;
+       font-size: 260%;
+}
+
+.post-info{
+       font-family: 'Black italic',regular;
+    font-size: 160%;
+     
+}
+.post-author{
+         color: yellow;
+         font-size: 140%;
+}
+
+.post-date{
+color: white;
+font-family:font-family: 'Roboto', Montserrat;
+}

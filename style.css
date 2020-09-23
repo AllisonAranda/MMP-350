@@ -1,28 +1,9 @@
-body {
- 	font-family: inherit;
- 	background-color: yellow;
- 	color: yellow;
- }
-.container{  
-    background-color: black;
-    border-radius: 10px;
-    margin:20px;
-    margin-top: 1e;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1140px;
-    padding:16px;
-    padding-top:16px;
-    position:absolute;}
- h1 {
- 	font-family: inherit;
- 	color: white;
- }
-h3 {font-family: inherit;
-color: white;
-}
+@import "css/main.css";
+@import "css/typography-2.css";
 
- img {
- 	width: 50%;
- 	height: auto;
-    }
+/* typographic pairing 1*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/* typographic pairing 2*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@1,300&family=Roboto&display=swap" );
+/* typographic pairing 3*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto&display=swap");
